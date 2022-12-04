@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Sat Dec 03 2022 13:43:28 GMT+0800 (中国标准时间)</dateCreated>
+		<dateModified>Sat Dec 03 2022 13:43:28 GMT+0800 (中国标准时间)</dateModified>
+	</head>
+	<body>
+		<outline text="demo">
+			<outline text="core" type="link" _url="http://www.baidu.com"></outline>
+			<outline text="common"></outline>
+			<outline text="start">
+				<outline text="cloud"></outline>
+				<outline text="子主题 2"></outline>
+			</outline>
+			<outline text="pre"></outline>
+			<outline text="plugin"></outline>
+		</outline>
+	</body>
+</opml>
