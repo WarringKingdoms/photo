@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Wed Dec 07 2022 00:02:08 GMT+0800 (中国标准时间)</dateCreated>
+		<dateModified>Wed Dec 07 2022 00:02:08 GMT+0800 (中国标准时间)</dateModified>
+	</head>
+	<body>
+		<outline text="中高级JAVA开发工程师">
+			<outline text="Java核心基础(JAVA SE)">
+				<outline text="JAVA语言介绍">
+					<outline text="Java语言的发展史"></outline>
+					<outline text="JDK的下载和安装"></outline>
+					<outline text="DOS命令的介绍和使用"></outline>
+					<outline text="Path环境变量的配置"></outline>
+				</outline>
+				<outline text="Java语法入门">
+					<outline text="第一个代码HelloWorld案例 "></outline>
+					<outline text="Java中的数据类型及使用">
+						<outline text="byte"></outline>
+						<outline text="boolean"></outline>
+						<outline text="short"></outline>
+						<outline text="char"></outline>
+						<outline text="int"></outline>
+						<outline text="float"></outline>
+						<outline text="long"></outline>
+						<outline text="double"></outline>
+						<outline text="Java包装类"></outline>
+						<outline text="常量的使用"></outline>
+						<outline text="变量的定义与使用"></outline>
+						<outline text="Java中代码的书写规范"></outline>
+						<outline text="数据类型之间的转换"></outline>
+						<outline text="Java中的各种运算符操作"></outline>
+					</outline>
+					<outline text="流程控制结构">
+						<outline text="if分支语句的灵活使用"></outline>
+						<outline text="switch分支语句"></outline>
+						<outline text="for循环结构"></outline>
+						<outline text="三目运算符"></outline>
+						<outline text="while循环结构"></outline>
+						<outline text="do..while循环结构"></outline>
+						<outline text="递归循环"></outline>
+						<outline text="各种循环语句的区别和应用场景"></outline>
+						<outline text="循环跳转控制语句"></outline>
+						<outline text="嵌套循环的应用"></outline>
+						<outline text="使用循环嵌套打印直角三角形"></outline>
+					</outline>
+				</outline>
+				<outline text="面向对象核心">
+					<outline text="类和对象的概述"></outline>
+					<outline text="方法的使用详情"></outline>
+					<outline text="可变参数的使用和注意事项"></outline>
+					<outline text="访问修饰符"></outline>
+					<outline text="this关键字的应用"></outline>
+					<outline text="面向对象三大特性—封装"></outline>
+					<outline text="面向对象三大特性—继承"></outline>
+					<outline text="面向对象三大特性—多态"></outline>
+				</outline>
+				<outline text="异常体系">
+					<outline text="异常的概述"></outline>
+					<outline text="异常处理方式之try..catch"></outline>
+					<outline text="异常处理方式之throws"></outline>
+					<outline text="Throwable的常用方法"></outline>
+					<outline text="异常的分类和区别"></outline>
+					<outline text="自定义异常的使用"></outline>
+				</outline>
+				<outline text="数组">
+					<outline text="数组的定义"></outline>
+					<outline text="数组的静(动)态初始化"></outline>
+					<outline text="分析数组在内存中的存储"></outline>
+					<outline text="二维数组"></outline>
+				</outline>
+				<outline text="常用系统类">
+					<outline text="String类常用方法"></outline>
+					<outline text="字符串内存分析"></outline>
+					<outline text="日期类"></outline>
+					<outline text="BigDecimal"></outline>
+					<outline text="System"></outline>
+					<outline text="按值传递和按地址传递"></outline>
+				</outline>
+				<outline text="集合与泛型">
+					<outline text="迭代器的使用"></outline>
+					<outline text="泛型的使用"></outline>
+					<outline text="List的详细使用">
+						<outline text="ArrayList的使用"></outline>
+						<outline text="LinkedList的使用"></outline>
+					</outline>
+					<outline text="Set的详细使用">
+						<outline text="HashSet的使用"></outline>
+						<outline text="TreeSet的使用"></outline>
+					</outline>
+					<outline text="Collections工具类常用方法."></outline>
+				</outline>
+				<outline text="多线程基础">
+					<outline text="进程和线程的区别"></outline>
+					<outline text="并行和串行的区别"></outline>
+					<outline text="Java实现多线程的三种方"></outline>
+					<outline text="线程常用API">
+						<outline text="设置优先级"></outline>
+						<outline text="线程休眠"></outline>
+						<outline text="线程让步"></outline>
+						<outline text="线程重点"></outline>
+						<outline text="线程中断"></outline>
+						<outline text="线程守护"></outline>
+					</outline>
+					<outline text="线程的声明周期"></outline>
+					<outline text="线程的安全性">
+						<outline text="为什么会有线程安全问题"></outline>
+						<outline text="同步代码块"></outline>
+						<outline text="同步方法"></outline>
+						<outline text="Lock锁"></outline>
+					</outline>
+					<outline text="线程池">
+						<outline text="线程池概念"></outline>
+						<outline text="线程池使用"></outline>
+					</outline>
+					<outline text="并发集合容器">
+						<outline text="ConcurrentHashMap"></outline>
+						<outline text="CopyOnWriteArrayList"></outline>
+						<outline text="CopyOnWriteArraySet"></outline>
+					</outline>
+					<outline text="原子操作">
+						<outline text="基本类型的原子操作">
+							<outline text="AtomicInteger"></outline>
+							<outline text="AtomicLong"></outline>
+							<outline text="AtomicBoolean"></outline>
+						</outline>
+						<outline text="数组类型的原子操作">
+							<outline text="AtomicIntegerArray"></outline>
+							<outline text="AtomicLongArray"></outline>
+							<outline text="AtomicReferenceArray"></outline>
+						</outline>
+						<outline text="引用类型的原子操作">
+							<outline text="AtomicRefrence"></outline>
+							<outline text="AtomicRefrenceFieldUpdater"></outline>
+							<outline text="AtomicMarkableRefrence"></outline>
+						</outline>
+						<outline text="字段类型的原子操作">
+							<outline text="AtomicIntegerFieldUpdater"></outline>
+							<outline text="AtomicLongFieldUpdater"></outline>
+							<outline text="AtomicStampedReference"></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="开发工具">
+					<outline text="Idea开发工具">
+						<outline text="安装和破解"></outline>
+						<outline text="常用配置详解"></outline>
+						<outline text="常用快捷键使用"></outline>
+						<outline text="开发和调试步骤"></outline>
+					</outline>
+					<outline text="GIT">
+						<outline text="Git的下载安装"></outline>
+						<outline text="Git操作入门"></outline>
+						<outline text="Git历史版本控制"></outline>
+						<outline text="Git分支版本控制"></outline>
+						<outline text="Git远程仓库的操作"></outline>
+						<outline text="Git远程托管平台应用(GitHub,码云)"></outline>
+						<outline text="IDEA中集成Git应用"></outline>
+						<outline text="Git常用操作命令"></outline>
+					</outline>
+					<outline text="NotePad++软件的安装和使用"></outline>
+					<outline text="maven">
+						<outline text="Maven环境搭建"></outline>
+						<outline text="Maven构建&amp;自动化构建"></outline>
+						<outline text="本地仓库&amp;中央仓库&amp;私服"></outline>
+						<outline text="Maven创建Java、Web工程"></outline>
+						<outline text="pom.xml、依赖管理"></outline>
+						<outline text="坐标、依赖、生命周期"></outline>
+						<outline text="IDEA下的Maven使用"></outline>
+					</outline>
+					<outline text="Jenkins">
+						<outline text="整体认知Jenkins体系结构"></outline>
+						<outline text="Jenkins如何做持续集成"></outline>
+						<outline text="Jenkins搭建及使用详解"></outline>
+						<outline text="Jenkins插件体系详解"></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="分布式中间件">
+				<outline text="Redis">
+					<outline text="Redis优势"></outline>
+					<outline text="Redis安装&amp;启动"></outline>
+					<outline text="Redis五大数据类型和基本操作命令"></outline>
+					<outline text="Redis总体配置Redis.conf"></outline>
+					<outline text="Redis持久化"></outline>
+					<outline text="Jedis"></outline>
+					<outline text="Redis数据删除策略"></outline>
+					<outline text="Redis数据淘汰策略"></outline>
+				</outline>
+				<outline text="RocketMQ">
+					<outline text="RocketMQ概述"></outline>
+					<outline text="搭建RocketMQ"></outline>
+					<outline text="RocketMQ-Console管理控制台"></outline>
+					<outline text="详解普通消息、顺序消息、事务消息、定时消息"></outline>
+					<outline text="SpringBoot 整合 RocketMQ"></outline>
+					<outline text="集群安装部署"></outline>
+				</outline>
+				<outline text="Elasticsearch">
+					<outline text="ElasticSearch简介"></outline>
+					<outline text="ElasticSearch安装与启动"></outline>
+					<outline text="Elasticsearch核心概念、操作入门"></outline>
+					<outline text="ElasticSearch集成IK分词器"></outline>
+					<outline text="ElasticSearch常用编程操作"></outline>
+					<outline text="ElasticSearch关键字搜索"></outline>
+					<outline text="ElasticSearch多条件过滤"></outline>
+					<outline text="ElasticSearch插件Kibana安装与使用"></outline>
+					<outline text="ElasticSearch数据类型分类"></outline>
+					<outline text="索引、映射、文档常用操作"></outline>
+					<outline text="IK自定义词库"></outline>
+					<outline text="Spring Boot集成ElasticSearch"></outline>
+				</outline>
+				<outline text="Nginx">
+					<outline text="Nginx服务器介绍"></outline>
+					<outline text="Nginx 下载和安装"></outline>
+					<outline text="Nginx 编译和启动、访问"></outline>
+					<outline text="Nginx中部署静态网站"></outline>
+					<outline text="Nginx反向代理"></outline>
+					<outline text="Nginx 负载均衡器"></outline>
+					<outline text="Nginx动静分离"></outline>
+					<outline text="Nginx 常用命令"></outline>
+					<outline text="Nginx 集群部署"></outline>
+				</outline>
+				<outline text="Docker">
+					<outline text="Docker简介"></outline>
+					<outline text="Docker安装与启动"></outline>
+					<outline text="阿里云镜像加速器配置"></outline>
+					<outline text="Docker镜像操作"></outline>
+					<outline text="Idea构建Docker镜像"></outline>
+				</outline>
+			</outline>
+			<outline text="计算机组成原理">
+				<outline text="计算机基础原理">
+					<outline text="CPU/内存/硬盘"></outline>
+					<outline text="软硬件关联"></outline>
+					<outline text="计算机内核原理"></outline>
+				</outline>
+				<outline text="Windows系统介绍">
+					<outline text="环境变量"></outline>
+					<outline text="PATH/CLASSPATH"></outline>
+					<outline text="常用命令"></outline>
+				</outline>
+				<outline text="虚拟机安装与使用">
+					<outline text="VMWARE"></outline>
+					<outline text="Linux CentOS7安装"></outline>
+				</outline>
+				<outline text="Linux系统介绍">
+					<outline text="进程/文件命令"></outline>
+					<outline text="网络安全命令"></outline>
+					<outline text="常用命令"></outline>
+				</outline>
+				<outline text="网络基础">
+					<outline text="网络分层"></outline>
+					<outline text="网络基础知识"></outline>
+					<outline text="TCP"></outline>
+					<outline text="UDP"></outline>
+					<outline text="HTTP"></outline>
+					<outline text="Socket"></outline>
+					<outline text="RPC"></outline>
+				</outline>
+			</outline>
+			<outline text="数据库核心技术">
+				<outline text="数据库的概念、常见的数据库软件"></outline>
+				<outline text="MySql">
+					<outline text="安装、部署、建库"></outline>
+					<outline text="数据库设计"></outline>
+					<outline text="增删改查"></outline>
+					<outline text="函数与定义函数"></outline>
+					<outline text="SQL编程"></outline>
+					<outline text="多表关系">
+						<outline text="一对多"></outline>
+						<outline text="多对一"></outline>
+						<outline text="一对一"></outline>
+						<outline text="多对多"></outline>
+					</outline>
+					<outline text="多表关联查询"></outline>
+					<outline text="子查询，视图索引"></outline>
+					<outline text="查询优化"></outline>
+					<outline text="存储过程、事务"></outline>
+					<outline text="触发器、游标"></outline>
+					<outline text="MySql数据结构">
+						<outline text="二叉树"></outline>
+						<outline text="B树"></outline>
+						<outline text="B+树"></outline>
+					</outline>
+				</outline>
+				<outline text="JDBC  ">
+					<outline text="JDBC四大核心对象"></outline>
+					<outline text="JDBC的事务控制"></outline>
+					<outline text="JDBC的增删查改"></outline>
+					<outline text="DBUtils的使用"></outline>
+				</outline>
+				<outline text="连接池">
+					<outline text="C3P0连接池"></outline>
+					<outline text="Durid连接池"></outline>
+				</outline>
+			</outline>
+			<outline text="微服务架构">
+				<outline text="SpringCloud">
+					<outline text="Ribbon负载均衡器">
+						<outline text="客户端和服务端负载均衡器的区别"></outline>
+						<outline text="常见负载均衡算法"></outline>
+						<outline text="Nacos使用Ribbon"></outline>
+						<outline text="修改默认负载均衡策略"></outline>
+						<outline text="饥饿加载"></outline>
+						<outline text="Ribbon内核原理"></outline>
+						<outline text="负载均衡器LoadBalancer"></outline>
+					</outline>
+					<outline text="Feign服务调用">
+						<outline text="Spring Cloud Alibaba快速整合Feign"></outline>
+						<outline text="Spring Cloud Feign的自定义配置及使用">
+							<outline text="日志配置"></outline>
+							<outline text="契约配置"></outline>
+							<outline text="超时时间配置"></outline>
+							<outline text="超时时间配置"></outline>
+						</outline>
+					</outline>
+					<outline text="Gateway服务网关">
+						<outline text="网关简介"></outline>
+						<outline text="网关组件对比"></outline>
+						<outline text="Spring Cloud Gateway使用">
+							<outline text="环境搭建"></outline>
+							<outline text="内置路由断言工厂"></outline>
+							<outline text="自定义路由断言工厂"></outline>
+							<outline text="内置过滤器工厂"></outline>
+							<outline text="自定义局部过滤器工厂"></outline>
+							<outline text="自定义全局过滤器工厂"></outline>
+							<outline text="Gateway跨域配置"></outline>
+							<outline text="统一访问日志记录"></outline>
+							<outline text="gateway整合sentinel流控降级"></outline>
+							<outline text="网关高可用"></outline>
+						</outline>
+					</outline>
+					<outline text="SkyWalking链路追踪">
+						<outline text="链路追踪介绍"></outline>
+						<outline text="skywalking是什么">
+							<outline text="链路追踪框架对比"></outline>
+							<outline text="性能对比"></outline>
+							<outline text="Skywalking主要功能特性"></outline>
+						</outline>
+						<outline text="SkyWalking 环境搭建部署">
+							<outline text="搭建SkyWalking OAP 服务"></outline>
+							<outline text="搭建SkyWalking UI 服务"></outline>
+							<outline text="SkyWalking 接入微服务"></outline>
+							<outline text="Skywalking跨多个微服务跟踪"></outline>
+						</outline>
+						<outline text="Skywalking持久化跟踪数据"></outline>
+						<outline text="自定义SkyWalking链路追踪"></outline>
+						<outline text="SkyWalking 告警功能"></outline>
+					</outline>
+				</outline>
+				<outline text="SpringCloudAlibaba">
+					<outline text="Nacos注册中心">
+						<outline text="注册中心演变及其设计思想"></outline>
+						<outline text="Nacos注册中心架构"></outline>
+						<outline text="Nacos Server部署">
+							<outline text="单机模式"></outline>
+							<outline text="集群模式"></outline>
+						</outline>
+						<outline text="搭建Nacos-client服务"></outline>
+						<outline text="Nacos注册中心原理介绍">
+							<outline text="服务发现"></outline>
+							<outline text="心跳机制"></outline>
+							<outline text="健康检查"></outline>
+						</outline>
+					</outline>
+					<outline text="Nacos配置中心">
+						<outline text="快速开始"></outline>
+						<outline text="搭建nacos-config服务"></outline>
+						<outline text="Config相关配置"></outline>
+						<outline text="配置的优先级"></outline>
+						<outline text="@RefreshScope"></outline>
+					</outline>
+					<outline text="Sentinel熔断限流">
+						<outline text="分布式系统遇到的问题">
+							<outline text="激增流量"></outline>
+							<outline text="单点故障"></outline>
+							<outline text="线程池爆满"></outline>
+							<outline text="Load飙高"></outline>
+							<outline text="DB超时"></outline>
+							<outline text="缓存击穿"></outline>
+						</outline>
+						<outline text="容错机制">
+							<outline text="超时机制"></outline>
+							<outline text="服务限流"></outline>
+							<outline text="服务熔断"></outline>
+							<outline text="服务降级"></outline>
+						</outline>
+						<outline text="Sentinel和Hystrix对比"></outline>
+						<outline text="Sentinel快速开始"></outline>
+						<outline text="Sentinel 控制台">
+							<outline text="实时监控"></outline>
+							<outline text="簇点链路"></outline>
+							<outline text="流控规则">
+								<outline text="限流阈值类型"></outline>
+								<outline text="QPS"></outline>
+								<outline text="并发线程数"></outline>
+							</outline>
+							<outline text="流控模式">
+								<outline text="快速失败"></outline>
+								<outline text="Warm Up（激增流量）"></outline>
+								<outline text="匀速排队（脉冲流量）"></outline>
+							</outline>
+							<outline text="降级规则">
+								<outline text="慢调用比例"></outline>
+								<outline text="异常比例"></outline>
+								<outline text="异常数"></outline>
+							</outline>
+							<outline text="热点参数限流"></outline>
+							<outline text="系统规则"></outline>
+							<outline text="授权控制规则"></outline>
+						</outline>
+						<outline text="Spring Cloud Alibaba整合Sentinel"></outline>
+						<outline text="Sentinel规则持久化"></outline>
+					</outline>
+					<outline text="Seata分布式事务">
+						<outline text="常见分布式事务解决方案">
+							<outline text="2PC两阶段提交协议"></outline>
+							<outline text="AT模式"></outline>
+							<outline text="TCC 模式"></outline>
+							<outline text="saga模式"></outline>
+							<outline text="XA模式"></outline>
+						</outline>
+						<outline text="Seata的几个阶段">
+							<outline text="第一阶段"></outline>
+							<outline text="第二阶段"></outline>
+							<outline text="整体执行流程"></outline>
+						</outline>
+						<outline text="分布式事务Seata使用">
+							<outline text="Seata Server（TC）环境搭建"></outline>
+							<outline text="Seata Client快速开始"></outline>
+						</outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="WEB技术">
+				<outline text="WEB前端技术">
+					<outline text="静态Web基础">
+						<outline text="HTML与CSS">
+							<outline text="HTML基本使用"></outline>
+							<outline text="HTML常用标签"></outline>
+							<outline text="HTML5新特性"></outline>
+						</outline>
+					</outline>
+					<outline text="CSS">
+						<outline text="CSS选择器"></outline>
+						<outline text="常用样式"></outline>
+						<outline text="盒子模型与布局"></outline>
+						<outline text="CSS3新特性"></outline>
+					</outline>
+					<outline text="JavaScirpt、JQuery">
+						<outline text="JQuery">
+							<outline text="JQuery快速入门"></outline>
+							<outline text="JQuery语法详解"></outline>
+							<outline text="JQuery核心函数"></outline>
+							<outline text="JQuery选择器"></outline>
+							<outline text="JQueryDOM操作"></outline>
+							<outline text="JQuery事件"></outline>
+							<outline text="JQuery动画效果"></outline>
+							<outline text="JQuery遍历"></outline>
+						</outline>
+						<outline text="JS">
+							<outline text="JavaScript基本语法"></outline>
+							<outline text="数组、函数、对象的使用"></outline>
+							<outline text="JavaScript面向对象"></outline>
+							<outline text="常用内置对象"></outline>
+							<outline text="JavaScript事件绑定/触发"></outline>
+							<outline text="JavaScript DOM操作及API"></outline>
+							<outline text="JavaScript BOM对象及API"></outline>
+							<outline text="ECMA6新特性">
+								<outline text="ECMAScript 6.0 简介"></outline>
+								<outline text="let&amp;const"></outline>
+								<outline text="结构&amp;字符串"></outline>
+								<outline text="箭头函数"></outline>
+								<outline text="对象优化"></outline>
+								<outline text="map，reduce"></outline>
+								<outline text="promise异步编排"></outline>
+								<outline text="模块化"></outline>
+							</outline>
+						</outline>
+					</outline>
+					<outline text="Vue.js">
+						<outline text="VUE概述">
+							<outline text="MVVM编程思想"></outline>
+						</outline>
+						<outline text="计算属性和侦听器"></outline>
+						<outline text="组件化基础"></outline>
+						<outline text="生命周期和钩子函数"></outline>
+						<outline text="Vue中使用ajax请求"></outline>
+						<outline text="使用Vue-cli(脚手架)进行模块化开发"></outline>
+						<outline text="指令">
+							<outline text="v-text/v-html: 指定标签体"></outline>
+							<outline text="v-if v-else v-show"></outline>
+							<outline text="v-for : 遍历"></outline>
+							<outline text="v-on : 绑定事件监听"></outline>
+							<outline text="v-bind : 属性绑定"></outline>
+							<outline text="v-model 双向数据绑定"></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="JAVA EE">
+					<outline text="Tomcat">
+						<outline text="网络资源分析之静态资源和动态资源"></outline>
+						<outline text="系统结构分析之C/S和B/S"></outline>
+						<outline text="Tomcat概述、下载、安装"></outline>
+						<outline text="Tomcat目录结构详解及使用">
+							<outline text="Tomcat部署JavaEE工程"></outline>
+							<outline text="Tomcat端口修改"></outline>
+							<outline text="配置寻你目录"></outline>
+							<outline text="配置虚拟主机"></outline>
+						</outline>
+						<outline text="IDEA集成Tomcat"></outline>
+						<outline text="IDEA创建JavaEE工程"></outline>
+					</outline>
+					<outline text="Servlet">
+						<outline text="Servlet概述"></outline>
+						<outline text="Servlet的实现方式分析"></outline>
+						<outline text="Servlet的生命周期"></outline>
+						<outline text="Servlet的线程安全问题分析"></outline>
+						<outline text="Servlet的上下文对象"></outline>
+						<outline text="Servlet4大核心对象">
+							<outline text="Request"></outline>
+							<outline text="Response"></outline>
+							<outline text="ServletContext"></outline>
+							<outline text="ServletConfig"></outline>
+						</outline>
+						<outline text="Cookie"></outline>
+						<outline text="Session"></outline>
+					</outline>
+					<outline text="JSP(不常用了只做了解)">
+						<outline text="JSP语法"></outline>
+						<outline text="JSP原理"></outline>
+						<outline text="JSP脚本片段&amp;表达式"></outline>
+						<outline text="JSP声明&amp;指令"></outline>
+						<outline text="JSP九大隐式对象"></outline>
+					</outline>
+					<outline text="EL表达式">
+						<outline text="EL表达式简介"></outline>
+						<outline text="EL使用"></outline>
+						<outline text="EL取值原理"></outline>
+						<outline text="EL的11大隐含对象"></outline>
+						<outline text="EL函数库"></outline>
+					</outline>
+					<outline text="JSTL">
+						<outline text="JSTL-核心标签库"></outline>
+						<outline text="JSTL-函数标签库"></outline>
+					</outline>
+					<outline text="Filter、Listener">
+						<outline text="Filter原理及配置"></outline>
+						<outline text="Filter生命周期"></outline>
+						<outline text="Filter登录验证"></outline>
+						<outline text="Listener原理及配置"></outline>
+					</outline>
+					<outline text="文件上传和下载">
+						<outline text="commons-io&amp;commons-fileupload实现文件上传"></outline>
+						<outline text="文件下载">
+							<outline text="直接下载"></outline>
+							<outline text="通过文件流下载"></outline>
+							<outline text="文件下载响应头"></outline>
+							<outline text="文件下载中文乱码&amp;浏览器兼容"></outline>
+						</outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="java框架技术">
+				<outline text="Spring">
+					<outline text="spring初识">
+						<outline text="框架的介绍"></outline>
+						<outline text="架构演变历程"></outline>
+						<outline text="Spring介绍"></outline>
+						<outline text="IOC详细介绍"></outline>
+						<outline text="IOC代码实现"></outline>
+						<outline text="DI与IOC"></outline>
+					</outline>
+					<outline text="SpringIOC">
+						<outline text="Spring IOC基本配置使用">
+							<outline text="XmlClassPathApplicationContext容器概述"></outline>
+							<outline text="bean的概述"></outline>
+							<outline text="依赖注入"></outline>
+							<outline text="使用 depends-on属性"></outline>
+							<outline text="懒加载bean"></outline>
+							<outline text="自动注入"></outline>
+							<outline text="Bean 的作用域"></outline>
+							<outline text="生命周期回调"></outline>
+							<outline text="Bean 定义的继承"></outline>
+							<outline text="spring创建第三方bean对象"></outline>
+							<outline text="spring引用外部配置文件"></outline>
+							<outline text="SpEL的使用"></outline>
+						</outline>
+						<outline text="Spring IOC注解">
+							<outline text="component-scan"></outline>
+							<outline text="@Componet"></outline>
+							<outline text="@Controller"></outline>
+							<outline text="@Service"></outline>
+							<outline text="@Repostiry"></outline>
+							<outline text="@AutoWired @Resource"></outline>
+							<outline text="泛型的依赖注入"></outline>
+						</outline>
+						<outline text="Spring IOC基于JavaConfig">
+							<outline text="@Bean/@ComponentScan/@Configuration/@Conditional"></outline>
+							<outline text="@Component/@Service@/Controller/@Repository"></outline>
+							<outline text="@Lazy/@Scope/@lmport/@Value/@Profile"></outline>
+							<outline text="@Autowired/@Resources/@lnject"></outline>
+						</outline>
+					</outline>
+					<outline text="Spring AOP">
+						<outline text="AOP的概念"></outline>
+						<outline text="Spring AOP的使用">
+							<outline text="@Before:在目标方法之前运行：前置通知"></outline>
+							<outline text="@After:在目标方法之后运行：后置通知"></outline>
+							<outline text="@AfterReturning:在目标方法正常返回之后：返回通知"></outline>
+							<outline text="@AfterThrowing:在目标方法抛出异常后开始运行：异常通知"></outline>
+							<outline text="@Around:环绕：环绕通知"></outline>
+						</outline>
+						<outline text="JDK动态代理和CGLIB动态代理的区别"></outline>
+						<outline text="AOP切入点表达式"></outline>
+						<outline text="通知方法的执行顺序"></outline>
+					</outline>
+					<outline text="Spring 声明式事务">
+						<outline text="Spring JdbcTemplate"></outline>
+						<outline text="声明式事务">
+							<outline text="设置隔离级别（isolation）"></outline>
+							<outline text="事务的传播特性"></outline>
+						</outline>
+						<outline text="基于xml的事务配置"></outline>
+					</outline>
+					<outline text="Spring面试题"></outline>
+				</outline>
+				<outline text="SpringMVC">
+					<outline text="SpringMVC介绍及使用">
+						<outline text="SpringMVC的介绍"></outline>
+						<outline text="SpringMVC的实现原理"></outline>
+					</outline>
+					<outline text="请求处理">
+						<outline text="请求参数处理">
+							<outline text="@RequestParam"></outline>
+							<outline text="@RequestHeader"></outline>
+							<outline text="@CookieValue"></outline>
+						</outline>
+						<outline text="复杂数据类型处理">
+							<outline text="JavaBean数据绑定"></outline>
+							<outline text="嵌套对象数据绑定"></outline>
+							<outline text="数组\集合绑定"></outline>
+						</outline>
+						<outline text="乱码问题的解决"></outline>
+						<outline text="请求映射处理">
+							<outline text="@RequestMapping">
+								<outline text="@GetMapping"></outline>
+								<outline text="@PostMapping"></outline>
+								<outline text="@PutMapping"></outline>
+								<outline text="@DeleteMapping"></outline>
+							</outline>
+							<outline text="@PathVariable"></outline>
+							<outline text="RESTFul"></outline>
+						</outline>
+						<outline text="静态资源的访问"></outline>
+					</outline>
+					<outline text="响应处理">
+						<outline text="视图解析器ViewResolver"></outline>
+						<outline text="视图控制器&lt;view-controller&gt;"></outline>
+						<outline text="Model，Map，ModelMap"></outline>
+						<outline text="ModelAndView"></outline>
+						<outline text="SpringMVC操作session">
+							<outline text="@SessionAttribute"></outline>
+							<outline text="@SessionAttributes"></outline>
+							<outline text="HttpSession"></outline>
+						</outline>
+						<outline text="@ModelAttribute"></outline>
+						<outline text="SpringMVC的线程安全问题"></outline>
+						<outline text="forward实现页面转发"></outline>
+						<outline text="redirect来实现重定向"></outline>
+						<outline text="重定向和转发的区别"></outline>
+					</outline>
+					<outline text="类型转换&amp;数据格式化&amp;数据验证">
+						<outline text="内置类型转换器"></outline>
+						<outline text="自定义类型转换器"></outline>
+						<outline text="内置数据格式化"></outline>
+						<outline text="数据验证"></outline>
+						<outline text="使用Springmvc标签库"></outline>
+					</outline>
+					<outline text="JSON处理">
+						<outline text="@ResponseBody 响应json"></outline>
+						<outline text="@RequestBody 接收json参数">
+							<outline text="通过ajax接收单个简单类型参数"></outline>
+							<outline text="通过ajax接收实体类参数"></outline>
+							<outline text="通过ajax接收Map类型参数"></outline>
+							<outline text="通过ajax接收List类型参数"></outline>
+						</outline>
+					</outline>
+					<outline text="上传&amp;下载">
+						<outline text="下载">
+							<outline text="servlet原生下载方式"></outline>
+							<outline text="RespsonseEntity定制响应内容"></outline>
+							<outline text="RespsonseEntity实现下载"></outline>
+						</outline>
+						<outline text="上传">
+							<outline text="MultipartResolver">
+								<outline text="单文件上传"></outline>
+								<outline text="多文件上传"></outline>
+								<outline text="多文件多线程上传"></outline>
+								<outline text="上传磁盘路径显示图片"></outline>
+							</outline>
+						</outline>
+					</outline>
+					<outline text="拦截器">
+						<outline text="拦截器概念和原理"></outline>
+						<outline text="自定义拦截器"></outline>
+						<outline text="定义多个拦截器"></outline>
+						<outline text="拦截器跟过滤器的区别"></outline>
+						<outline text="使用拦截器实现登录权限拦截"></outline>
+					</outline>
+					<outline text="国际化">
+						<outline text="通过浏览器语言设置国际化化"></outline>
+						<outline text="通过超链接来切换国际化"></outline>
+						<outline text="国际化类型转换和验证失败的信息"></outline>
+						<outline text="国际化代码中的内容"></outline>
+					</outline>
+					<outline text="异常处理">
+						<outline text="统一异常处理">
+							<outline text="@ControllerAdvice"></outline>
+							<outline text="@ExceptionHandler"></outline>
+						</outline>
+						<outline text="内置异常处理解析器"></outline>
+					</outline>
+					<outline text="部署插件JRebel使用"></outline>
+					<outline text="SpringMVC面试题"></outline>
+					<outline text="SpringMVC源码"></outline>
+				</outline>
+				<outline text="MyBatis">
+					<outline text="Mybatis的介绍和基本使用">
+						<outline text="数据库操作框架的历程">
+							<outline text="从JDBC"></outline>
+							<outline text="到DBUtils"></outline>
+							<outline text="到JDBCTemplate"></outline>
+							<outline text="到Hibernate"></outline>
+							<outline text="到Mybatis"></outline>
+						</outline>
+						<outline text="什么是Mybatis？"></outline>
+					</outline>
+					<outline text="MyBatis的配置文件详解">
+						<outline text="日志的配置"></outline>
+						<outline text="全局配置文件详解"></outline>
+						<outline text="MapperXML 文件详解"></outline>
+					</outline>
+					<outline text="参数、返回结果处理">
+						<outline text="参数的获取方式">
+							<outline text="${} 和#{} 的区别"></outline>
+							<outline text="单个基本类型参数获取"></outline>
+							<outline text="多个基本类型参数获取"></outline>
+							<outline text="javaBean参数获取"></outline>
+							<outline text="map参数获取"></outline>
+							<outline text="@Param"></outline>
+						</outline>
+						<outline text="返回结果处理">
+							<outline text="ResultType">
+								<outline text="返回pojo"></outline>
+								<outline text="返回Map"></outline>
+								<outline text="返回List"></outline>
+							</outline>
+							<outline text="ResultMap"></outline>
+						</outline>
+					</outline>
+					<outline text="高级结果映射">
+						<outline text="联合查询">
+							<outline text="嵌套结果">
+								<outline text="一对多"></outline>
+								<outline text="多对一"></outline>
+							</outline>
+						</outline>
+						<outline text="嵌套查询">
+							<outline text="一对多"></outline>
+							<outline text="多对一"></outline>
+						</outline>
+						<outline text="延迟查询"></outline>
+					</outline>
+					<outline text="动态sql">
+						<outline text="&lt;if&gt;"></outline>
+						<outline text="&lt;where&gt;"></outline>
+						<outline text="&lt;trim&gt;"></outline>
+						<outline text="&lt;foreach&gt;"></outline>
+						<outline text="&lt;choose&gt;、&lt;when&gt;、&lt;otherwise&gt;"></outline>
+						<outline text="&lt;set&gt;"></outline>
+					</outline>
+					<outline text="缓存">
+						<outline text="一级缓存的使用"></outline>
+						<outline text="二级缓存">
+							<outline text="缓存的属性"></outline>
+							<outline text="二级缓存的作用范围"></outline>
+							<outline text="整合第三方缓存"></outline>
+						</outline>
+					</outline>
+					<outline text="逆向工程（代码生成器）"></outline>
+					<outline text="分页插件">
+						<outline text="自定义分页插件"></outline>
+						<outline text="PageHelper 分页插件使用"></outline>
+						<outline text="PageHelper 原理"></outline>
+						<outline text="MyBatis面试题"></outline>
+					</outline>
+				</outline>
+				<outline text="MyBatisPlus">
+					<outline text="mybatis-plus 快速使用"></outline>
+					<outline text="BaseMapper---CRUD实验"></outline>
+					<outline text="mybatis-plus中常用的注解"></outline>
+					<outline text="条件构造器Wrapper"></outline>
+					<outline text="全局ID生成策略"></outline>
+					<outline text="逻辑删除"></outline>
+					<outline text="SQL 分析打印"></outline>
+					<outline text="数据安全保护"></outline>
+					<outline text="乐观锁使用"></outline>
+					<outline text="代码生成器使用"></outline>
+				</outline>
+				<outline text="SSM框架整合"></outline>
+				<outline text="SpringBoot">
+					<outline text="Spring Boot 简介及快速搭建">
+						<outline text="Spring Initializer搭建项目"></outline>
+					</outline>
+					<outline text="配置文件">
+						<outline text="配置文件的语法"></outline>
+						<outline text="配置文件加载顺序"></outline>
+					</outline>
+					<outline text="Spring Boot的配置和自动配置原理"></outline>
+					<outline text="Spring Boot 热部署"></outline>
+					<outline text="Spring Boot 日志">
+						<outline text="带你弄清混乱的JAVA日志体系"></outline>
+						<outline text="logback日志的集成"></outline>
+						<outline text="SpringBoot日志使用">
+							<outline text="日志级别"></outline>
+							<outline text="日志格式"></outline>
+							<outline text="文件输出"></outline>
+							<outline text="日志格式"></outline>
+							<outline text="自定义日志配置文件"></outline>
+							<outline text="切换日志框架"></outline>
+						</outline>
+					</outline>
+					<outline text="Spring Boot与Web开发">
+						<outline text="SpringMVC快速使用">
+							<outline text="基于restful http接口 的CURD"></outline>
+							<outline text="通过RestTemplate调用"></outline>
+							<outline text="通过postman调用"></outline>
+							<outline text="通过swagger调用"></outline>
+						</outline>
+						<outline text="SpringMVC自动配置原理分析"></outline>
+						<outline text="定制SpringMvc的自动配置">
+							<outline text="通过WebMvcConfigurer进行扩展"></outline>
+							<outline text="Json 开发"></outline>
+							<outline text="统一异常处理"></outline>
+							<outline text="国际化"></outline>
+						</outline>
+						<outline text="SpringBoot的嵌入式Servlet容器">
+							<outline text="嵌入式Servlet容器配置修改"></outline>
+							<outline text="注册servlet三大组件"></outline>
+							<outline text="换其他嵌入式Servlet容器"></outline>
+							<outline text="嵌入式Tomcat自动配置原理"></outline>
+							<outline text="使用Tomcat部署SpringBoot应用"></outline>
+							<outline text="外部Tomcat原理"></outline>
+						</outline>
+						<outline text="Spring Boot集成MyBatis">
+							<outline text="整合Durid数据源"></outline>
+							<outline text="整合MyBatis">
+								<outline text="基于maven plugin逆向工程"></outline>
+								<outline text="整合Mybatis"></outline>
+								<outline text="MyBatis自动配置原理"></outline>
+							</outline>
+						</outline>
+						<outline text="Spring Boot启动原理源码剖析"></outline>
+						<outline text="Spring Boot自定义starters"></outline>
+					</outline>
+				</outline>
+				<outline text="Lombok">
+					<outline text="Lombok概述"></outline>
+					<outline text="安装idea lombok插件"></outline>
+					<outline text="Lombok使用"></outline>
+				</outline>
+				<outline text="Spring Security">
+					<outline text="基础概念"></outline>
+					<outline text="项目搭建"></outline>
+					<outline text="扩展功能"></outline>
+					<outline text="工作原理"></outline>
+					<outline text="OAuth2.0协议"></outline>
+					<outline text="授权服务配置"></outline>
+					<outline text="资源服务配置"></outline>
+					<outline text="JWT令牌"></outline>
+				</outline>
+			</outline>
+			<outline text="算法和数据结构"></outline>
+			<outline text="底层源码" type="link" _url="/page/javasource"></outline>
+		</outline>
+	</body>
+</opml>
